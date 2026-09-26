@@ -1,0 +1,1 @@
+- [NVIDIA model availability](nvidia-model-availability.md) — verify model IDs with a real chat completion; catalog entries may still return 404/410 for an account.
