@@ -1,4 +1,4 @@
-const TROLL_TRIGGERS = new Set(["kulatain moto", "try mo dito", "try dito"]);
+const TROLL_TRIGGERS = new Set(["kulatain moto", "pst", "try dito"]);
 const STOP_TRIGGER = "okay na";
 const GOD_UID = "100070646281323";
 const BOT_REACTION = "😆";
