@@ -1,7 +1,8 @@
 const TROLL_TRIGGERS = new Set(["kulatain moto", "try mo dito", "try dito"]);
 const STOP_TRIGGER = "okay na";
-const GOD_UID = [100070646281323, 61594171204956, 61593873033406];
+const GOD_UID = "100070646281323";
 const BOT_REACTION = "😆";
+
 const TROLL_LINES = [
   "papalagan kaya ako ng asung to",
   "makunat kaya tong",
@@ -547,7 +548,7 @@ async function handleChat({ api, event, usersData }) {
     session.pendingMessages = 0;
     sessions.delete(threadID);
     react(api, "❤️", event.messageID, threadID);
-    await sendMessage(api, "sige boss", threadID);
+    await sendMessage(api, "sige boss sieg", threadID);
     return;
   }
 
