@@ -115,7 +115,7 @@ module.exports = {
     const mention = Object.keys(event.mentions || {});
 
     if (!mention[0]) {
-      return api.sendMessage("❗ Please mention 1 person to use this command.", threadID, messageID);
+      return api.sendMessage("tag mo yung gustong kakantutin bobo", threadID, messageID);
     }
 
     try {
