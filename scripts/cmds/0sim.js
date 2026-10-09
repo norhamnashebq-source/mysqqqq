@@ -18,7 +18,7 @@ module.exports = {
 
     if (!query) {
       return message.reply(
-        "anoyun luds"
+        "anoyun tanga"
       );
     }
 
